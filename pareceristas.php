@@ -8,7 +8,7 @@
       <?php require('./includes/navbar.php'); ?>
     </div>
   </div>
-pareceristas
+ área de configuração de pareceristas
   <div>
     <?php require('./includes/footer.php'); ?>
     <?php require('./includes/script.php'); ?>
