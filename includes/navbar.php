@@ -20,7 +20,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link vazio 1</a>
+        <a class="nav-link" href="./inst_inscricao.php">Inscrição</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link vazio 2</a>
