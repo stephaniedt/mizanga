@@ -65,7 +65,7 @@
         </p>
         </div>
         <div class="title mt-4">
-          <h5> Políticas de Reembolso  <h5>
+          <h5> Políticas de reembolso  <h5>
         </div>
         <div>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus blanditiis, omnis quaerat placeat quae voluptas similique ullam consequatur laboriosam harum, amet est debitis nesciunt assumenda architecto consequuntur sequi sed.
