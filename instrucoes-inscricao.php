@@ -10,7 +10,7 @@
   </div>
     <div class="container">
         <div class="title">
-            <h4> Instruções para inscrição</h4>
+            <h4 class="display-2"> Instruções para inscrição</h4>
         </div>
         <div class="mt-4">
           <p>
