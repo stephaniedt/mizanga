@@ -12,7 +12,7 @@
         <!-- início config -->
         <!-- início Cabeçalho -->
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Trabalhos</h4>
+                <h4 class="display-3">Trabalhos</h4>
                 <p class="lead font-italic"></p>
         </div>
         <!-- fim Cabeçalho -->
@@ -35,7 +35,7 @@
                 <td scope="row">29/01/2020</td>
                 <td scope="row">30/10/2020</td>
                 <td class="text-center">
-                  <input class="btn btn-primary" type="submit" value="Enviar">
+                  <input class="btn btn-info" type="submit" value="Enviar">
                 </td>
                 <td class="text-center">
                   <a href="#">
@@ -51,7 +51,7 @@
         <!-- fim modalidades criadas -->
 
         <!-- início Cabeçalho2 -->
-        <div class="container mb-1 pt-1 text-white bg-primary">
+        <div class="container mb-1 pt-1 text-white bg-info">
                 <h4>Modalidades criadas</h4>
                 <p class="lead font-italic"> Insira as regras para envio dos trabalhos (configuração das modalidades). </p>
         </div>
@@ -112,13 +112,13 @@
               </div>
 
             </div>
-            <div class="form-row"> 
+            <div class="row align-items-end"> 
               <div class="col-md-8">
                   <label for="exampleFormControlTextarea1">Texto de instrução aos autores</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <div class="col-md-4 d-flex justify-content-center">
-                <button class="btn btn-secondary" type="submit">criar</button>
+              <div class="col-md-4">
+                <button class="btn w-100 btn-secondary" type="submit">criar</button>
               </div>
             </div>
 

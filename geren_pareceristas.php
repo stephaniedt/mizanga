@@ -19,26 +19,26 @@
         <div class="my-5">
             <div class="row justify-content-around">
                 <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">INLCUIR PARECERISTA</button>
+                    <button type="button" class="btn btn-success btn-block mb-2">INLCUIR PARECERISTA</button>
                 </div>
                 <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">GERAR DADOS DE ACESSO PARA GRUPO</button>
-                </div>
-            </div>
-            <div class="row justify-content-around">
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">ENVIAR CARTAS CONVITE</button>
-                </div>
-                <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">ENVIAR MENSAGEM PARA GRUPO</button>
+                    <button type="button" class="btn btn-success btn-block mb-2">GERAR DADOS DE ACESSO PARA GRUPO</button>
                 </div>
             </div>
             <div class="row justify-content-around">
                 <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">ENVIAR DADOS DE ACESSO</button>
+                    <button type="button" class="btn btn-success btn-block mb-2">ENVIAR CARTAS CONVITE</button>
                 </div>
                 <div class="col-md-4">
-                    <button type="button" class="btn btn-primary btn-block mb-2">EDITAR INSTRUÇÕES PARA AVALIAÇÃO</button>
+                    <button type="button" class="btn btn-success btn-block mb-2">ENVIAR MENSAGEM PARA GRUPO</button>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-success btn-block mb-2">ENVIAR DADOS DE ACESSO</button>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-success btn-block mb-2">EDITAR INSTRUÇÕES PARA AVALIAÇÃO</button>
                 </div>
             </div>
         </div>

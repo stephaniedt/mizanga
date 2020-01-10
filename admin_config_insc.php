@@ -12,7 +12,7 @@
         <!-- início config -->
         <!-- Cabeçalho1 -->
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Participação</h4>
+                <h1 class="display-3">Participação</h1>
                 <p class="lead font-italic"> </p>
         </div>
         <!-- fim Cabeçalho1 -->

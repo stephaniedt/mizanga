@@ -14,9 +14,10 @@
           Admin
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="./adminhome.php">Tela inicial</a>
           <a class="dropdown-item" href="./participantes.php">Participantes</a>
           <a class="dropdown-item" href="./trabalhos.php">Trabalhos</a>
-          <a class="dropdown-item" href="./pareceristas.php">Pareceristas</a>
+          <a class="dropdown-item" href="./parecerista_inicio.php">Pareceristas</a>
         </div>
       </li>
       <li class="nav-item">
