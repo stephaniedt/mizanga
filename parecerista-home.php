@@ -10,10 +10,59 @@
     </div>
 
     <div class="container">
-        <h1 class="display-3">Parecerista - Início</h1>
-        <a href="#" class="d-block">Instruções aos avaliadores</a>
-        <a href="#" class="d-block">Exportar resultados para Excel</a>
+        <div>
+            <h1 class="display-2 mb-1">Área do parecerista</h1>
+            <a href="#" class="d-block">Instruções aos avaliadores</a>
+            <a href="#" class="d-block">Exportar resultados para Excel</a>
+        </div>
+        <hr class="my-3">
+        <h5> Trabalhos pendentes </h5>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="codigo-trabalho">Código do trabalho</label>
+                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                </div>
+                <div class="col">
+                    <label for="nome-trabalho">Título do trabalho</label>
+                    <input type="text" class="form-control" id="nome-trabalho" placeholder="nome do trabalho">
+                </div>
+                <div class="col align-self-end"> <a href="#">Visualizar trabalho</a></div>
+            </div>
+        </form>
+        <hr class="my-3">
+        <h5> Trabalhos aprovados </h5>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="codigo-trabalho">Código do trabalho</label>
+                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                </div>
+                <div class="col">
+                    <label for="nome-trabalho">Título do trabalho</label>
+                    <input type="text" class="form-control" id="nome-trabalho" placeholder="nome do trabalho">
+                </div>
+                <div class="col align-self-end"> <a href="#">Visualizar trabalho</a></div>
+            </div>
+        </form>
+        <hr class="my-3">
+        <h5> Trabalhos reprovados </h5>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="codigo-trabalho">Código do trabalho</label>
+                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                </div>
+                <div class="col">
+                    <label for="nome-trabalho">Título do trabalho</label>
+                    <input type="text" class="form-control" id="nome-trabalho" placeholder="nome do trabalho">
+                </div>
+                <div class="col align-self-end"> <a href="#">Visualizar trabalho</a></div>
+            </div>
+        </form>
+        <hr class="my-3">
     </div>
+    
   
   
 
