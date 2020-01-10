@@ -9,13 +9,11 @@
     </div>
 
     <div class="container">
-    <div class="mb-1 pt-1">
+        <div class="mb-1 pt-1">
                 <h4 class="display-2">Incluir Parecerista</h4>
                 <p class="lead font-italic"></p>
         </div>
-    </div>
 
-    <div class="container">
         <form action="" method="post">
             <div class="my-3">
                 <div class="form-row">
@@ -111,7 +109,6 @@
             <button type="submit" class="btn btn-primary" style="width: 10%">Enviar</button>
             <button type="button" class="btn btn-primary" style="width: 10%">Voltar</button>
         </div>
-
     </div>
 
     <div>
