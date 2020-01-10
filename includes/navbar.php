@@ -14,20 +14,20 @@
           Admin
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="./adminhome.php">Tela inicial</a>
-          <a class="dropdown-item" href="./participantes.php">Participantes</a>
-          <a class="dropdown-item" href="./trabalhos.php">Trabalhos</a>
-          <a class="dropdown-item" href="./parecerista_inicio.php">Pareceristas</a>
+        <a class="dropdown-item" href="./admin-home.php">Tela inicial</a>
+          <a class="dropdown-item" href="./admin-config-inscrito.php">Participantes</a>
+          <a class="dropdown-item" href="./admin-config-trabalhos.php">Trabalhos</a>
+          <a class="dropdown-item" href="./admin-config-parecerista.php">Pareceristas</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./inst_inscricao.php">Inscrição</a>
+        <a class="nav-link" href="./instrucoes-inscricao.php">Inscrição</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link vazio 2</a>
+        <a class="nav-link" href="./inscrito-home.php">Inscritos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link vazio 3</a>
+        <a class="nav-link" href="parecerista-home.php">Pareceristas</a>
       </li>
     </ul>
   </div>
