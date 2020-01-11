@@ -103,11 +103,11 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="filiacao">Filiação institucional</label>
-                        <input type="text" class="form-control" id="filiacao" placeholder="Filiação Insticional">
+                        <input type="text" class="form-control" id="filiacao" placeholder="Filiação Institucional">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="cargo">Função institucional/cargo</label>
-                        <input type="text" class="form-control" id="cargo" placeholder="Filiação institucional/cargo">
+                        <input type="text" class="form-control" id="cargo" placeholder="Função institucional/cargo">
                     </div>
                 </div>
                 <div class="form-row">
@@ -168,10 +168,10 @@
                             <option value="3">AP</option>
                             <option value="4">AM</option>
                             <option value="5">BA</option>
-                            <option value="6"> CE</option>
-                            <option value="7"> DF</option>
-                            <option value="8"> ES</option>
-                            <option value="9"> GO</option>
+                            <option value="6">CE</option>
+                            <option value="7">DF</option>
+                            <option value="8">ES</option>
+                            <option value="9">GO</option>
                             <option value="10">MA</option>
                             <option value="11">MG</option>
                             <option value="12">MT</option>
@@ -291,8 +291,8 @@
                 <h5>Dados complementares</h5>
                 <div class="form-row">
                     <div class="form-group col-md-2">
-                        <label for="genero">Genêro</label>
-                        <input type="text" class="form-control" id="genero" placeholder="Genêro">
+                        <label for="genero">Gênero</label>
+                        <input type="text" class="form-control" id="genero" placeholder="Gênero">
                     </div>
                     <div class="form-group col-md-2">
                         <label for="raca">Raça/Cor*</label>
