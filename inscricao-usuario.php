@@ -3,16 +3,15 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div> 
+    <div>
+        <?php require('./includes/navbar.php'); ?>
     </div>
+
 
     <div class="container">
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Ficha de Inscrição</h4>
-                <p class="lead font-italic"></p>
+            <h4 class="display-2">Ficha de Inscrição</h4>
+            <p class="lead font-italic"></p>
         </div>
         <form action="" method="post">
             <div class="my-3">
@@ -27,7 +26,7 @@
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
                         <input type="text" class="form-control" id="compMatricula" placeholder="Comprovante de matrícula" aria-label="Comprovante de matrícula" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button">Buscar</button>
+                            <button class="btn btn-outline-primary" type="button">Buscar</button>
                         </div>
                     </div>
                 </div>
@@ -72,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="my-3">
                 <h5>Formação</h5>
                 <div class="form-row">
@@ -117,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="my-3">
                 <h5>Endereço</h5>
                 <div class="form-check form-check-inline">
@@ -328,6 +327,7 @@
         <?php require('./includes/footer.php'); ?>
         <?php require('./includes/script.php'); ?>
     </div>
-    
+
 </body>
+
 </html>

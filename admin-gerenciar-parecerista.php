@@ -3,19 +3,19 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div> 
+
+    <div>
+        <?php require('./includes/navbar.php'); ?>
     </div>
 
+
     <div class="container">
-        
+
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Gerenciar Parecerista</h4>
-                <p class="lead font-italic"></p>
+            <h4 class="display-2">Gerenciar Parecerista</h4>
+            <p class="lead font-italic"></p>
         </div>
-        
+
         <div class="my-5">
             <div class="row justify-content-around">
                 <div class="col-md-4">
@@ -46,13 +46,13 @@
             <table class="table table-bordered">
                 <thead class="thead-light text-center">
                     <tr>
-                    <th scope="col" style="width: 15%">CPF</th>
-                    <th scope="col" style="width: 20%">Nome</th>
-                    <th scope="col" style="width: 15%">Eixos</th>
-                    <th scope="col" style="width: 15%">Carta enviada</th>
-                    <th scope="col">Avaliações</th>
-                    <th scope="col">Confirmar/Desconfirmar</th>
-                    <th scope="col" style="width: 15%">Editar/Excluir/Substituir</th>
+                        <th scope="col" style="width: 15%">CPF</th>
+                        <th scope="col" style="width: 20%">Nome</th>
+                        <th scope="col" style="width: 15%">Eixos</th>
+                        <th scope="col" style="width: 15%">Carta enviada</th>
+                        <th scope="col">Avaliações</th>
+                        <th scope="col">Confirmar/Desconfirmar</th>
+                        <th scope="col" style="width: 15%">Editar/Excluir/Substituir</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -91,6 +91,7 @@
         <?php require('./includes/footer.php'); ?>
         <?php require('./includes/script.php'); ?>
     </div>
-    
+
 </body>
+
 </html>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require('./includes/head.php'); ?>
+
 <body>
 
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div>
+    <div>
+        <?php require('./includes/navbar.php'); ?>
     </div>
+
 
     <div class="container">
         <div>
@@ -23,7 +23,7 @@
             <div class="form-row">
                 <div class="col">
                     <label for="codigo-trabalho">Código do trabalho</label>
-                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                    <input type="text" class="form-control" id="codigo-trabalho" placeholder="codigo do trabalho">
                 </div>
                 <div class="col">
                     <label for="nome-trabalho">Título do trabalho</label>
@@ -38,7 +38,7 @@
             <div class="form-row">
                 <div class="col">
                     <label for="codigo-trabalho">Código do trabalho</label>
-                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                    <input type="text" class="form-control" id="codigo-trabalho" placeholder="codigo do trabalho">
                 </div>
                 <div class="col">
                     <label for="nome-trabalho">Título do trabalho</label>
@@ -53,7 +53,7 @@
             <div class="form-row">
                 <div class="col">
                     <label for="codigo-trabalho">Código do trabalho</label>
-                    <input type="text" class="form-control" id="codigo-trabalho"placeholder="codigo do trabalho">
+                    <input type="text" class="form-control" id="codigo-trabalho" placeholder="codigo do trabalho">
                 </div>
                 <div class="col">
                     <label for="nome-trabalho">Título do trabalho</label>
@@ -64,9 +64,9 @@
         </form>
         <hr class="my-3">
     </div>
-    
-  
-  
+
+
+
 
 
     <div>
@@ -74,4 +74,5 @@
         <?php require('./includes/script.php'); ?>
     </div>
 </body>
+
 </html>
