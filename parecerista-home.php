@@ -12,11 +12,13 @@
     <div class="container">
         <div>
             <h1 class="display-2 mb-1">Área do parecerista</h1>
-            <a href="#" class="d-block">Instruções aos avaliadores</a>
+            <a href="./link-instrucoes-avaliadores.php" target="_blank" class="d-block">Instruções aos avaliadores</a>
+            <!-- add JS para abrir nova pagina pop-up -->
             <a href="#" class="d-block">Exportar resultados para Excel</a>
         </div>
         <hr class="my-3">
         <h5> Trabalhos pendentes </h5>
+        <!-- add PHP para popular campos de trabalhos -->
         <form>
             <div class="form-row">
                 <div class="col">
