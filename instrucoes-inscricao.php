@@ -9,23 +9,23 @@
     </div>
   </div>
     <div class="container">
-        <div class="title">
+        <main>
             <h4 class="display-2"> Instruções para inscrição</h4>
-        </div>
-        <div class="mt-4">
-          <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nam cumque eveniet, voluptates provident iure, aperiam doloribus itaque aliquam illo dignissimos? Voluptatem minima unde in enim laudantium, nisi accusamus!
-          Ipsum blanditiis id illo quam corrupti maxime! Ut quod temporibus ab vel quasi ducimus, quibusdam ea repellat sint ullam! Officia amet modi tempora accusantium eveniet temporibus unde! Odit, ab suscipit.
-          Blanditiis commodi voluptate nemo animi placeat dolorem ex repellat maxime. Quod facilis libero autem? Harum architecto quas commodi, accusamus magnam quibusdam magni, eligendi, omnis culpa exercitationem saepe maxime rem error.
-          Dolore voluptate deserunt quo excepturi consectetur? Nostrum sit ratione nihil beatae atque rerum dolor facere. Rerum odit culpa, optio quam tempora temporibus dolorem error corrupti. Nostrum obcaecati ipsum minima repellat!
-          Commodi maxime, consectetur eligendi, facere consequatur non hic eum recusandae tempora beatae aliquam eveniet ducimus ab necessitatibus corporis quos ipsam ut quibusdam praesentium quae molestiae impedit voluptas, totam reprehenderit. Pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nam cumque eveniet, voluptates provident iure, aperiam doloribus itaque aliquam illo dignissimos? Voluptatem minima unde in enim laudantium, nisi accusamus!
-          Ipsum blanditiis id illo quam corrupti maxime! Ut quod temporibus ab vel quasi ducimus, quibusdam ea repellat sint ullam! Officia amet modi tempora accusantium eveniet temporibus unde! Odit, ab suscipit.
-          Blanditiis commodi voluptate nemo animi placeat dolorem ex repellat maxime. Quod facilis libero autem? Harum architecto quas commodi, accusamus magnam quibusdam magni, eligendi, omnis culpa exercitationem saepe maxime rem error.
-          Dolore voluptate deserunt quo excepturi consectetur? Nostrum sit ratione nihil beatae atque rerum dolor facere. Rerum odit culpa, optio quam tempora temporibus dolorem error corrupti. Nostrum obcaecati ipsum minima repellat!
-          Commodi maxime, consectetur eligendi, facere consequatur non hic eum recusandae tempora beatae aliquam eveniet ducimus ab necessitatibus corporis quos ipsam ut quibusdam praesentium quae molestiae impedit voluptas, totam reprehenderit. Pariatur?
-          </p>
+            <div class="mt-4">
+              <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nam cumque eveniet, voluptates provident iure, aperiam doloribus itaque aliquam illo dignissimos? Voluptatem minima unde in enim laudantium, nisi accusamus!
+              Ipsum blanditiis id illo quam corrupti maxime! Ut quod temporibus ab vel quasi ducimus, quibusdam ea repellat sint ullam! Officia amet modi tempora accusantium eveniet temporibus unde! Odit, ab suscipit.
+              Blanditiis commodi voluptate nemo animi placeat dolorem ex repellat maxime. Quod facilis libero autem? Harum architecto quas commodi, accusamus magnam quibusdam magni, eligendi, omnis culpa exercitationem saepe maxime rem error.
+              Dolore voluptate deserunt quo excepturi consectetur? Nostrum sit ratione nihil beatae atque rerum dolor facere. Rerum odit culpa, optio quam tempora temporibus dolorem error corrupti. Nostrum obcaecati ipsum minima repellat!
+              Commodi maxime, consectetur eligendi, facere consequatur non hic eum recusandae tempora beatae aliquam eveniet ducimus ab necessitatibus corporis quos ipsam ut quibusdam praesentium quae molestiae impedit voluptas, totam reprehenderit. Pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nam cumque eveniet, voluptates provident iure, aperiam doloribus itaque aliquam illo dignissimos? Voluptatem minima unde in enim laudantium, nisi accusamus!
+              Ipsum blanditiis id illo quam corrupti maxime! Ut quod temporibus ab vel quasi ducimus, quibusdam ea repellat sint ullam! Officia amet modi tempora accusantium eveniet temporibus unde! Odit, ab suscipit.
+              Blanditiis commodi voluptate nemo animi placeat dolorem ex repellat maxime. Quod facilis libero autem? Harum architecto quas commodi, accusamus magnam quibusdam magni, eligendi, omnis culpa exercitationem saepe maxime rem error.
+              Dolore voluptate deserunt quo excepturi consectetur? Nostrum sit ratione nihil beatae atque rerum dolor facere. Rerum odit culpa, optio quam tempora temporibus dolorem error corrupti. Nostrum obcaecati ipsum minima repellat!
+              Commodi maxime, consectetur eligendi, facere consequatur non hic eum recusandae tempora beatae aliquam eveniet ducimus ab necessitatibus corporis quos ipsam ut quibusdam praesentium quae molestiae impedit voluptas, totam reprehenderit. Pariatur?
+              </p>
           <div class="d-block">
-           <p class="font-weight-bold d-inline">Critérios para inscrições de trabalhos:</p> <a href="#"> clique aqui.</a>
+           <p class="font-weight-bold d-inline">Critérios para inscrições de trabalhos:</p> <a target="_blank" href="./link-criterios-trabalho.php"> clique aqui.</a>
+           <!-- add JS para abrir nova pagina pop-up -->
           </div>
           <p class="font-weight-bold d-inline"> Dúvidas? </p> <a href="mailto:email@email.com.br?subject=Dúvida">Mande uma mensagem.</a>
         </div>
@@ -81,6 +81,7 @@
         <button type="button" class="p-1 px-5 mb-3 btn btn-secondary"> <a href="./inscricao-usuario.php"> Clique aqui para realizar sua inscrição</a>   
         </button>
         </div>
+        </main>
     </div>
   <div>
     <?php require('./includes/footer.php'); ?>
