@@ -10,7 +10,7 @@
 <div> 
 <form class="form-inline flex-row-reverse">
   <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selected>Choose...</option>
+    <option selected>Escolher</option>
     <option value="1">One</option>
     <option value="2">Two</option>
     <option value="3">Three</option>
@@ -19,7 +19,7 @@
 </div>
 <div>
 <div class="container">
-    <div class="mb-1 pt-1">
+<div class="mb-1 pt-1">
       <h4 class="display-3">Enviar Trabalho para outro avaliador</h4>
       <p class="lead font-italic"></p>
     </div>
@@ -28,66 +28,105 @@
 <!-- Inicio -->
 <div class="container">
     <p>Avaliador de destino</p>
-<div class="w-25 input-group mb-3">
-  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+<div class="w-25 input-group mb-4">
+  <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
   <div class="input-group-append">
     <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Submeter</button>
   </div>
 </div>
 </div>
+<!-- Tabelas -->
 <div class="container">
-<table class="table mt-5">
+<p class=" text-center"> TRABALHOS QUE SERÃO ENVIADOS</p>
+    </div>
+    <hr>
+<div>
+    <table class="table table-borderless">
   <thead>
     <tr>
       <th scope="col"></th>
-      <th scope="col">TRABALHOS QUE SERÃO ENVIADOS</th>
       <th scope="col"></th>
-      
+      <th scope="col"></th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-      <td><div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-  <label class="form-check-label" for="inlineRadio1">Sim</label>
+      <th scope="row"></th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+      <td><div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Sim</label>
 </div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  <label class="form-check-label" for="inlineRadio2">Não</label>
-</div>
-</td>
-      
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-      <td><div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-  <label class="form-check-label" for="inlineRadio1">Sim</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  <label class="form-check-label" for="inlineRadio2">Não</label>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Não</label>
 </div></td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th scope="row"></th>
       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-      <td><div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-  <label class="form-check-label" for="inlineRadio1">Sim</label>
+      <td><div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Sim</label>
 </div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  <label class="form-check-label" for="inlineRadio2">Não</label>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Não</label>
+</div></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      <td colspan="2"><div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Sim</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Não</label>
 </div></td>
     </tr>
   </tbody>
 </table>
 </div>
-
-
+<div class="container">
+<p class="text-center mt-5"> TRABALHOS JÁ AVALIADOS (NÃO PODEM SER REENVIADOS)</p>
+    </div>
+    <hr>
+<div>
+    <table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="container">
+<button type="button" class="btn btn-secondary btn-lg mb-5">Enviar</button>
+<button type="button" class="btn btn-secondary btn-lg mb-5">Voltar</button>
+</div>
+<div>
+    <?php require('./includes/footer.php'); ?>
+    <?php require('./includes/script.php'); ?>
+  </div>
 </body>
 </html>
