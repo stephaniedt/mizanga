@@ -8,8 +8,8 @@
     <?php require('./includes/navbar.php'); ?>
   </div>    
 <div> 
-<form class="form-inline flex-row-reverse">
-  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+<form class="form-inline flex-row-reverse mr-4">
+  <select class="custom-select my-3 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected>Escolher</option>
     <option value="1">One</option>
     <option value="2">Two</option>
@@ -27,7 +27,7 @@
 </div>
 <!-- Inicio -->
 <div class="container">
-    <p>Avaliador de destino</p>
+    <p class="mt-5">Avaliador de destino</p>
 <div class="w-25 input-group mb-4">
   <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
   <div class="input-group-append">
@@ -121,8 +121,8 @@
 </table>
 </div>
 <div class="container">
-<button type="submit" class="btn btn-primary btn-lg mb-5">Enviar</button>
-<button type="submit" class="btn btn-primary btn-lg mb-5">Voltar</button>
+<button type="submit" class="btn btn-primary btn-lg mb-5 mt-3">Enviar</button>
+<button type="submit" class="btn btn-primary btn-lg mb-5 mt-3">Voltar</button>
 </div>
 <div>
     <?php require('./includes/footer.php'); ?>
