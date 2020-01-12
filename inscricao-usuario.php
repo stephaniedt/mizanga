@@ -3,7 +3,7 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div>
+    V<div class="sticky-top">
         <?php require('./includes/navbar.php'); ?>
     </div>
 
