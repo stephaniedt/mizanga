@@ -121,8 +121,8 @@
 </table>
 </div>
 <div class="container">
-<button type="button" class="btn btn-secondary btn-lg mb-5">Enviar</button>
-<button type="button" class="btn btn-secondary btn-lg mb-5">Voltar</button>
+<button type="submit" class="btn btn-primary btn-lg mb-5">Enviar</button>
+<button type="submit" class="btn btn-primary btn-lg mb-5">Voltar</button>
 </div>
 <div>
     <?php require('./includes/footer.php'); ?>
