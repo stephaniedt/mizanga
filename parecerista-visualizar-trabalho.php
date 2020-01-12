@@ -14,10 +14,12 @@
     </div>
 
     <!-- Inicio-->
+    <div class="container">
     <div> <p><strong>Lorem ipsum dolor sit amet consectet</strong></p></div>
     <div><p>Códiigo do trabalho: XXX-XX</p></div>
     <div><p>Data de submissão: dd/mm/aaaa - hh:min</p></div>
     <div></div>
+    </div>
     <!-- Resumo -->
    
     <form>
@@ -30,11 +32,13 @@
     Dolores minima nulla soluta cupiditate. Odio consequatur ipsam et nobis dicta sequi architecto rem consectetur dolore voluptatem error maxime tenetur ab atque, dignissimos impedit quia, unde voluptates magni? Assumenda, libero.</textarea>
   </div>
 </form>
+<div class="container">
   <div><p><strong>Palavras-chave: Lorem ipsum dolor sit amet consectet</strong> </p></div>
   <div> <p><strong>1° Opção de Grupo de Trabalho:</strong> Lorem ipsum dolor sit amet consectet</p></div>
   <div> <p><strong>2° Opção de Grupo de Trabalho:</strong> Lorem ipsum dolor sit amet consectet</p></div>
   <div> <p><strong>3° Opção de Grupo de Trabalho:</strong> Lorem ipsum dolor sit amet consectet</p></div>
-<form>
+</div>
+<form class="container">
     <p>Avaliar Trabalho</p>
 <select class="form-control mb-4">
   <option>Aprovado</option>
@@ -45,7 +49,7 @@
 </form>
 <div></div>
 <!--Add arquivo -->
-<form>
+<form class="container">
     <p>Incluir Parecer</p>
 <div class="custom-file mb-4">
   <input type="file" class="custom-file-input" id="customFile">
@@ -53,7 +57,7 @@
 </div>
 </form>
 
-  <div>
+<div>
     <?php require('./includes/footer.php'); ?>
     <?php require('./includes/script.php'); ?>
   </div>
