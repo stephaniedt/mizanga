@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<<?php require('./includes/head.php'); ?>
+<?php require('./includes/head.php'); ?>
 
 <body>
 <div>
