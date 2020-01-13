@@ -8,9 +8,9 @@
 <div>
     <?php require('./includes/navbar.php'); ?>
   </div>
-  <div class="container">
+  <div class="">
     <div class="mb-1 pt-1">
-      <h4 class="display-3">Contato</h4>
+      <h4 class="display-3 ml-5">Contato</h4>
       <p class="lead font-italic"></p>
     </div>
     <form class="w-50 ml-5">
