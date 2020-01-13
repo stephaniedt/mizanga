@@ -16,7 +16,7 @@
     <!-- Inicio-->
     <div class="container">
     <div> <p><strong>Lorem ipsum dolor sit amet consectet</strong></p></div>
-    <div><p>Códiigo do trabalho: XXX-XX</p></div>
+    <div><p>Código do trabalho: XXX-XXX</p></div>
     <div><p>Data de submissão: dd/mm/aaaa - hh:min</p></div>
     <div></div>
     </div>
