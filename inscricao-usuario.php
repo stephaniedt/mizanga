@@ -230,11 +230,11 @@
                         Necessita de recursos de acessibilidade?*
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessSim" value="sim">
+                        <input class="form-check-input" type="radio" name="acess" id="acessSim" value="sim">
                         <label class="form-check-label" for="acessSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessNao" value="nao">
+                        <input class="form-check-input" type="radio" name="acess" id="acessNao" value="nao">
                         <label class="form-check-label" for="acessNao">Não</label>
                     </div>
                 </div>
@@ -243,11 +243,11 @@
                         Possui alguma deficiência?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficSim" value="sim">
+                        <input class="form-check-input" type="radio" name="defic" id="deficSim" value="sim">
                         <label class="form-check-label" for="deficSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficNao" value="nao">
+                        <input class="form-check-input" type="radio" name="defic" id="deficNao" value="nao">
                         <label class="form-check-label" for="deficNao">Não</label>
                     </div>
                 </div>
@@ -256,11 +256,11 @@
                         Faz uso de assistência pessoal e/ou equipamento de tecnologia assistiva?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistSim" value="sim">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistSim" value="sim">
                         <label class="form-check-label" for="tecAssistSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistNao" value="nao">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistNao" value="nao">
                         <label class="form-check-label" for="tecAssistNao">Não</label>
                     </div>
                 </div>
@@ -269,11 +269,11 @@
                         Necessita de recursos de acessibilidade?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoSim" value="sim">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoSim" value="sim">
                         <label class="form-check-label" for="recursoSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoNao" value="nao">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoNao" value="nao">
                         <label class="form-check-label" for="recursoNao">Não</label>
                     </div>
                 </div>
