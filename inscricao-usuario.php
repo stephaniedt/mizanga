@@ -77,7 +77,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="titulacao">Titulação mais alta*</label>
-                        <select class="custom-select" id="titulacao">
+                        <select class="form-control" id="titulacao">
                             <option selected>Escolha...</option>
                             <option value="1">Ensino Médio</option>
                             <option value="2">Graduação</option>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="uf">UF*</label>
-                        <select class="custom-select" id="uf">
+                        <select class="form-control" id="uf">
                             <option selected>Escolha...</option>
                             <option value="1">AC</option>
                             <option value="2">AL</option>
@@ -295,7 +295,7 @@
                     </div>
                     <div class="form-group col-md-2">
                         <label for="raca">Raça/Cor*</label>
-                        <select class="custom-select" id="raca">
+                        <select class="form-control" id="raca">
                             <option selected>Escolha...</option>
                             <option value="1">Amarela</option>
                             <option value="2">Branca</option>
@@ -307,7 +307,7 @@
                     </div>
                     <div class="form-group col-md-8">
                         <label for="nomeCertific">Prefere que o nome social seja utilizado na emissão do certificado?*</label>
-                        <select class="custom-select" id="nomeCertific">
+                        <select class="form-control" id="nomeCertific">
                             <option selected>Escolha...</option>
                             <option value="1">Sim</option>
                             <option value="2">Não</option>
