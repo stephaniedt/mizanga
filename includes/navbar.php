@@ -1,4 +1,4 @@
-<nav class="navbar mb-5 navbar-expand-lg navbar-light "> 
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
 <!-- 26/12 Cris não conseguiu fazer fixed-top direito -->
   <a class="navbar-brand" href="#"> <h2 class="text-primary"> Mizanga</h2> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

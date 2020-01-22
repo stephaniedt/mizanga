@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require('./includes/head.php'); ?>
+
 <body>
 
-  <div class="container-fluid">
-    <div>
-      <?php require('./includes/navbar.php'); ?>
-    </div>
+  <div class="sticky-top">
+    <?php require('./includes/navbar.php'); ?>
   </div>
-  
-<!-- início div container -->
+
+
+  <!-- início div container -->
   <div class="container">
 
-<!-- Início Configurações -->
+    <!-- Início Configurações -->
     <div>
       <h1 class="display-3 text-center">1º Encontro das mizangueiras</h1>
       <p class="lead text-center">de 28/10/2019 a 28/04/2020</p>
@@ -20,7 +20,7 @@
       <hr class="my-3">
     </div>
 
-<!-- início card deck -->
+    <!-- início card deck -->
     <div class="card-deck">
       <div class="card">
         <img src="./img/mizanga3.jpg" class="card-img-top" alt="...">
@@ -56,14 +56,14 @@
         </div>
       </div>
     </div>
-<!-- fim card deck -->      
-<!-- Fim Configurações -->
+    <!-- fim card deck -->
+    <!-- Fim Configurações -->
 
 
 
-    </div>
-<!-- fim div container -->
-  
+  </div>
+  <!-- fim div container -->
+
 
 
   <div>
@@ -72,4 +72,5 @@
   </div>
 
 </body>
+
 </html>

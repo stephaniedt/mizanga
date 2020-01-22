@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php require('./includes/head.php'); ?>
+
 <body>
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div> 
+    <div class="sticky-top">
+        <?php require('./includes/navbar.php'); ?>
     </div>
+
 
     <div class="container">
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Incluir Parecerista</h4>
-                <p class="lead font-italic"></p>
+            <h4 class="display-2">Incluir Parecerista</h4>
+            <p class="lead font-italic"></p>
         </div>
 
         <form action="" method="post">
             <div class="my-3">
                 <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <label for="cpf">CPF*</label>
-                            <input type="text" class="form-control" id="cpf" placeholder="Nome">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="nome">Nome*</label>
-                            <input type="text" class="form-control" id="nome" placeholder="Nome">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="email">E-mail*</label>
-                            <input type="text" class="form-control" id="email" placeholder="E-mail">
-                        </div>
+                    <div class="form-group col-md-4">
+                        <label for="cpf">CPF*</label>
+                        <input type="text" class="form-control" id="cpf" placeholder="Nome">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="nome">Nome*</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Nome">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="email">E-mail*</label>
+                        <input type="text" class="form-control" id="email" placeholder="E-mail">
+                    </div>
                 </div>
             </div>
 
@@ -115,6 +115,7 @@
         <?php require('./includes/footer.php'); ?>
         <?php require('./includes/script.php'); ?>
     </div>
-    
+
 </body>
+
 </html>

@@ -3,16 +3,15 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div> 
+    V<div class="sticky-top">
+        <?php require('./includes/navbar.php'); ?>
     </div>
+
 
     <div class="container">
         <div class="mb-1 pt-1">
-                <h4 class="display-2">Ficha de Inscrição</h4>
-                <p class="lead font-italic"></p>
+            <h4 class="display-2">Ficha de Inscrição</h4>
+            <p class="lead font-italic"></p>
         </div>
         <form action="" method="post">
             <div class="my-3">
@@ -27,7 +26,7 @@
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
                         <input type="text" class="form-control" id="compMatricula" placeholder="Comprovante de matrícula" aria-label="Comprovante de matrícula" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button">Buscar</button>
+                            <button class="btn btn-outline-primary" type="button">Buscar</button>
                         </div>
                     </div>
                 </div>
@@ -72,13 +71,13 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="my-3">
                 <h5>Formação</h5>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="titulacao">Titulação mais alta*</label>
-                        <select class="custom-select" id="titulacao">
+                        <select class="form-control" id="titulacao">
                             <option selected>Escolha...</option>
                             <option value="1">Ensino Médio</option>
                             <option value="2">Graduação</option>
@@ -103,11 +102,11 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="filiacao">Filiação institucional</label>
-                        <input type="text" class="form-control" id="filiacao" placeholder="Filiação Insticional">
+                        <input type="text" class="form-control" id="filiacao" placeholder="Filiação Institucional">
                     </div>
                     <div class="form-group col-md-4">
                         <label for="cargo">Função institucional/cargo</label>
-                        <input type="text" class="form-control" id="cargo" placeholder="Filiação institucional/cargo">
+                        <input type="text" class="form-control" id="cargo" placeholder="Função institucional/cargo">
                     </div>
                 </div>
                 <div class="form-row">
@@ -117,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="my-3">
                 <h5>Endereço</h5>
                 <div class="form-check form-check-inline">
@@ -161,17 +160,17 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="uf">UF*</label>
-                        <select class="custom-select" id="uf">
+                        <select class="form-control" id="uf">
                             <option selected>Escolha...</option>
                             <option value="1">AC</option>
                             <option value="2">AL</option>
                             <option value="3">AP</option>
                             <option value="4">AM</option>
                             <option value="5">BA</option>
-                            <option value="6"> CE</option>
-                            <option value="7"> DF</option>
-                            <option value="8"> ES</option>
-                            <option value="9"> GO</option>
+                            <option value="6">CE</option>
+                            <option value="7">DF</option>
+                            <option value="8">ES</option>
+                            <option value="9">GO</option>
                             <option value="10">MA</option>
                             <option value="11">MG</option>
                             <option value="12">MT</option>
@@ -231,11 +230,11 @@
                         Necessita de recursos de acessibilidade?*
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessSim" value="sim">
+                        <input class="form-check-input" type="radio" name="acess" id="acessSim" value="sim">
                         <label class="form-check-label" for="acessSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessNao" value="nao">
+                        <input class="form-check-input" type="radio" name="acess" id="acessNao" value="nao">
                         <label class="form-check-label" for="acessNao">Não</label>
                     </div>
                 </div>
@@ -244,11 +243,11 @@
                         Possui alguma deficiência?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficSim" value="sim">
+                        <input class="form-check-input" type="radio" name="defic" id="deficSim" value="sim">
                         <label class="form-check-label" for="deficSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficNao" value="nao">
+                        <input class="form-check-input" type="radio" name="defic" id="deficNao" value="nao">
                         <label class="form-check-label" for="deficNao">Não</label>
                     </div>
                 </div>
@@ -257,11 +256,11 @@
                         Faz uso de assistência pessoal e/ou equipamento de tecnologia assistiva?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistSim" value="sim">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistSim" value="sim">
                         <label class="form-check-label" for="tecAssistSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistNao" value="nao">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistNao" value="nao">
                         <label class="form-check-label" for="tecAssistNao">Não</label>
                     </div>
                 </div>
@@ -270,11 +269,11 @@
                         Necessita de recursos de acessibilidade?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoSim" value="sim">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoSim" value="sim">
                         <label class="form-check-label" for="recursoSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoNao" value="nao">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoNao" value="nao">
                         <label class="form-check-label" for="recursoNao">Não</label>
                     </div>
                 </div>
@@ -291,12 +290,12 @@
                 <h5>Dados complementares</h5>
                 <div class="form-row">
                     <div class="form-group col-md-2">
-                        <label for="genero">Genêro</label>
-                        <input type="text" class="form-control" id="genero" placeholder="Genêro">
+                        <label for="genero">Gênero</label>
+                        <input type="text" class="form-control" id="genero" placeholder="Gênero">
                     </div>
                     <div class="form-group col-md-2">
                         <label for="raca">Raça/Cor*</label>
-                        <select class="custom-select" id="raca">
+                        <select class="form-control" id="raca">
                             <option selected>Escolha...</option>
                             <option value="1">Amarela</option>
                             <option value="2">Branca</option>
@@ -308,7 +307,7 @@
                     </div>
                     <div class="form-group col-md-8">
                         <label for="nomeCertific">Prefere que o nome social seja utilizado na emissão do certificado?*</label>
-                        <select class="custom-select" id="nomeCertific">
+                        <select class="form-control" id="nomeCertific">
                             <option selected>Escolha...</option>
                             <option value="1">Sim</option>
                             <option value="2">Não</option>
@@ -328,6 +327,7 @@
         <?php require('./includes/footer.php'); ?>
         <?php require('./includes/script.php'); ?>
     </div>
-    
+
 </body>
+
 </html>
