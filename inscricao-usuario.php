@@ -3,7 +3,7 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    V<div class="sticky-top">
+    <div class="sticky-top">
         <?php require('./includes/navbar.php'); ?>
     </div>
 
@@ -22,11 +22,11 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="input-group col-md-6">
+                    <div class="form-group col-md-6">
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
-                        <input type="text" class="form-control" id="compMatricula" placeholder="Comprovante de matrícula" aria-label="Comprovante de matrícula" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-primary" type="button">Buscar</button>
+                        <div class="custom-file mb-4">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile"></label>
                         </div>
                     </div>
                 </div>
