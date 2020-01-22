@@ -35,7 +35,7 @@
 			</div>
            
 		</div>
-	
+  </main>
     <div>
     <?php require('./includes/footer.php'); ?>
     <?php require('./includes/script.php'); ?>
