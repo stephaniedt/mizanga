@@ -133,6 +133,7 @@
                         <label for="cep">CEP*</label>
                         <input type="text" class="form-control" id="cep" placeholder="CEP">
                         <a href="">Consulte seu CEP</a>
+                        <!-- https://www.devmedia.com.br/forum/api-de-cep-correios/571512 -->
                     </div>
                 </div>
                 <div class="form-row">
