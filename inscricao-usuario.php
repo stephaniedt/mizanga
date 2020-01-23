@@ -26,7 +26,7 @@
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
                         <div class="custom-file mb-4">
                             <input type="file" class="custom-file-input" id="customFile">
-                            <label class="custom-file-label" for="customFile"></label>
+                            <label class="custom-file-label" for="customFile" data-browse="Buscar"></label>
                         </div>
                     </div>
                 </div>
