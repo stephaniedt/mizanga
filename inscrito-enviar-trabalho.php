@@ -19,7 +19,7 @@
 
         <div class="form-row">
             <div class="form-group col-md-12 pb-2">
-                <select class="custom-select">
+                <select class="form-control">
                     <option selected disabled>Selecione a modalidade</option>
                     <option value="1">Pôster</option>
                     <!-- aqui vai ter que por php -->
@@ -27,7 +27,7 @@
             </div>
 
             <div class="form-group col-md-6 pb-2">
-                <select class="form-group custom-select">
+                <select class="form-group form-control">
                     <option selected disabled>Primeira opção de eixo temático</option>
                     <option value="1">Eixo 1. lorem ipsum</option>
                     <option value="1">Eixo 2. lorem ipsum</option>
@@ -38,7 +38,7 @@
             </div>
 
             <div class="form-group col-md-6 pb-2">
-                <select class="form-group custom-select">
+                <select class="form-group form-control">
                     <option selected disabled>Segunda opção de eixo temático</option>
                     <option value="1">Eixo 1. lorem ipsum</option>
                     <option value="1">Eixo 2. lorem ipsum</option>
