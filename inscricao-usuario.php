@@ -10,7 +10,7 @@
 
     <div class="container">
         <div class="mb-1 pt-1">
-            <h4 class="display-2">Ficha de Inscrição</h4>
+            <h4 class="display-3">Ficha de Inscrição</h4>
             <p class="lead font-italic"></p>
         </div>
         <form action="" method="post">
@@ -319,8 +319,8 @@
         </form>
 
         <div class="my-4">
-            <button type="submit" class="btn btn-primary" style="width: 10%">Enviar</button>
-            <button type="button" class="btn btn-primary" style="width: 10%">Voltar</button>
+            <button type="submit" class="btn btn-primary" style="width:120px">Enviar</button>
+            <button type="button" class="btn btn-primary" style="width:120px">Voltar</button>
         </div>
     </div>
 

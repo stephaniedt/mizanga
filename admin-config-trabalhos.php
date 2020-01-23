@@ -40,10 +40,10 @@
             </td>
             <td class="text-center">
               <a href="#">
-                <i class="mr-2 material-icons">edit</i>
+                <i class="mr-2 material-icons text-info">edit</i>
               </a>
               <a href="#">
-                <i class="ml-2 material-icons">delete</i>
+                <i class="ml-2 material-icons text-info">delete</i>
               </a>
             </td>
         </tbody>
@@ -120,7 +120,7 @@
           </div>
         </div>
         <div class="my-4">
-          <button class="btn btn-info" type="submit" style="width: 10%">Criar</button>
+          <button class="btn btn-info" type="submit" style="width:120px">Criar</button>
         </div>
 
       </form>
