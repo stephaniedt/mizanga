@@ -69,7 +69,7 @@
         <button type="button" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
 
         </button>
-        <div class="dropdown-menu" class="card" aria-labelledby="dropdownMenuOffset">
+        <div class="dropdown-menu  dropdown-menu-right" class="card" aria-labelledby="dropdownMenuOffset">
           <div >
             <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png"  width="70px" height="70px"  class="card-img-center" alt="..." >
             <div class="card-body ">
