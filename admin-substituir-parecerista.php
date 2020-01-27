@@ -23,7 +23,6 @@
       <h4 class="display-3">Enviar Trabalho para outro avaliador</h4>
       <p class="lead font-italic"></p>
     </div>
-
 <!-- Inicio -->
 <div class="container">
     <p class="mt-5">Avaliador de destino</p>
@@ -66,24 +65,24 @@
       <th scope="row"></th>
       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
       <td><div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Sim</label>
+  <input type="radio" id="customRadioInline3" name="customRadioInline3" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline3">Sim</label>
 </div>
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Não</label>
+  <input type="radio" id="customRadioInline4" name="customRadioInline3" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline4">Não</label>
 </div></td>
     </tr>
     <tr>
       <th scope="row"></th>
       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
       <td colspan="2"><div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Sim</label>
+  <input type="radio" id="customRadioInline6" name="customRadioInline5" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline6">Sim</label>
 </div>
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Não</label>
+  <input type="radio" id="customRadioInline7" name="customRadioInline5" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline7">Não</label>
 </div></td>
     </tr>
   </tbody>
