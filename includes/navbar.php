@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse " id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Início</a>
+        <a class="nav-link" href="./home.php">Início</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -23,11 +23,21 @@
       <li class="nav-item">
         <a class="nav-link" href="./instrucoes-inscricao.php">Inscrição</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./inscrito-home.php">Inscritos</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Área do inscrito
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./inscrito-home.php">Informações pessoais</a>
+          <a class="dropdown-item" href="./inscrito-trabalhos-cadastrados.php">Trabalhos cadastrados</a>
+          <a class="dropdown-item" href="./inscrito-enviar-trabalho.php">Enviar trabalho</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="parecerista-home.php">Pareceristas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contato.php">Contato</a>
       </li>
     </ul>
   </div>

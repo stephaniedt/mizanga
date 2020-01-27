@@ -3,14 +3,14 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    V<div class="sticky-top">
+    <div class="sticky-top">
         <?php require('./includes/navbar.php'); ?>
     </div>
 
 
     <div class="container">
         <div class="mb-1 pt-1">
-            <h4 class="display-2">Ficha de Inscrição</h4>
+            <h4 class="display-3">Ficha de Inscrição</h4>
             <p class="lead font-italic"></p>
         </div>
         <form action="" method="post">
@@ -22,11 +22,11 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="input-group col-md-6">
+                    <div class="form-group col-md-6">
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
-                        <input type="text" class="form-control" id="compMatricula" placeholder="Comprovante de matrícula" aria-label="Comprovante de matrícula" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-primary" type="button">Buscar</button>
+                        <div class="custom-file mb-4">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile" data-browse="Buscar"></label>
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="titulacao">Titulação mais alta*</label>
-                        <select class="custom-select" id="titulacao">
-                            <option selected>Escolha...</option>
+                        <select class="form-control" id="titulacao">
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Ensino Médio</option>
                             <option value="2">Graduação</option>
                             <option value="3">Mestrado</option>
@@ -133,6 +133,7 @@
                         <label for="cep">CEP*</label>
                         <input type="text" class="form-control" id="cep" placeholder="CEP">
                         <a href="">Consulte seu CEP</a>
+                        <!-- https://www.devmedia.com.br/forum/api-de-cep-correios/571512 -->
                     </div>
                 </div>
                 <div class="form-row">
@@ -160,8 +161,8 @@
                     </div>
                     <div class="form-group col-md-4">
                         <label for="uf">UF*</label>
-                        <select class="custom-select" id="uf">
-                            <option selected>Escolha...</option>
+                        <select class="form-control" id="uf">
+                            <option selected disabled>Escolha...</option>
                             <option value="1">AC</option>
                             <option value="2">AL</option>
                             <option value="3">AP</option>
@@ -230,11 +231,11 @@
                         Necessita de recursos de acessibilidade?*
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessSim" value="sim">
+                        <input class="form-check-input" type="radio" name="acess" id="acessSim" value="sim">
                         <label class="form-check-label" for="acessSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="acessNao" value="nao">
+                        <input class="form-check-input" type="radio" name="acess" id="acessNao" value="nao">
                         <label class="form-check-label" for="acessNao">Não</label>
                     </div>
                 </div>
@@ -243,11 +244,11 @@
                         Possui alguma deficiência?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficSim" value="sim">
+                        <input class="form-check-input" type="radio" name="defic" id="deficSim" value="sim">
                         <label class="form-check-label" for="deficSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="deficNao" value="nao">
+                        <input class="form-check-input" type="radio" name="defic" id="deficNao" value="nao">
                         <label class="form-check-label" for="deficNao">Não</label>
                     </div>
                 </div>
@@ -256,11 +257,11 @@
                         Faz uso de assistência pessoal e/ou equipamento de tecnologia assistiva?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistSim" value="sim">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistSim" value="sim">
                         <label class="form-check-label" for="tecAssistSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tecAssistNao" value="nao">
+                        <input class="form-check-input" type="radio" name="tecassis" id="tecAssistNao" value="nao">
                         <label class="form-check-label" for="tecAssistNao">Não</label>
                     </div>
                 </div>
@@ -269,11 +270,11 @@
                         Necessita de recursos de acessibilidade?
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoSim" value="sim">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoSim" value="sim">
                         <label class="form-check-label" for="recursoSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="recursoNao" value="nao">
+                        <input class="form-check-input" type="radio" name="recurso" id="recursoNao" value="nao">
                         <label class="form-check-label" for="recursoNao">Não</label>
                     </div>
                 </div>
@@ -295,8 +296,8 @@
                     </div>
                     <div class="form-group col-md-2">
                         <label for="raca">Raça/Cor*</label>
-                        <select class="custom-select" id="raca">
-                            <option selected>Escolha...</option>
+                        <select class="form-control" id="raca">
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Amarela</option>
                             <option value="2">Branca</option>
                             <option value="3">Indígena</option>
@@ -307,8 +308,8 @@
                     </div>
                     <div class="form-group col-md-8">
                         <label for="nomeCertific">Prefere que o nome social seja utilizado na emissão do certificado?*</label>
-                        <select class="custom-select" id="nomeCertific">
-                            <option selected>Escolha...</option>
+                        <select class="form-control" id="nomeCertific">
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Sim</option>
                             <option value="2">Não</option>
                         </select>
@@ -318,8 +319,8 @@
         </form>
 
         <div class="my-4">
-            <button type="submit" class="btn btn-primary" style="width: 10%">Enviar</button>
-            <button type="button" class="btn btn-primary" style="width: 10%">Voltar</button>
+            <button type="submit" class="btn btn-primary" style="width:120px">Enviar</button>
+            <button type="button" class="btn btn-primary" style="width:120px">Voltar</button>
         </div>
     </div>
 

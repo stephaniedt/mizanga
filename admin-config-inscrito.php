@@ -59,7 +59,7 @@
     <div class="py-3">
       <form class="needs-validation" novalidate>
         <div class="form-row">
-          <div class="col-md-5">
+          <div class="col-md-6">
             <label class="font-weight-bold" for="validationTooltip01">Identificação</label>
             <input type="text" class="form-control" id="validationTooltip01" placeholder="Escolha um nome" required>
           </div>
@@ -85,11 +85,10 @@
               <label class="custom-control-label" for="customRadioInline2">Não</label>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-1 d-flex align-items-center">
-            <button class="btn btn-primary" type="submit">criar</button>
-          </div>
-
+        <div class="my-4">
+          <button class="btn btn-primary" type="submit" style="width:120px">Criar</button>
         </div>
       </form>
     </div>
