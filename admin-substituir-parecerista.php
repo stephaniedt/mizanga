@@ -24,7 +24,6 @@
       <p class="lead font-italic"></p>
     </div>
 
-</div>
 <!-- Inicio -->
 <div class="container">
     <p class="mt-5">Avaliador de destino</p>
@@ -128,5 +127,6 @@
     <?php require('./includes/footer.php'); ?>
     <?php require('./includes/script.php'); ?>
   </div>
+</div>
 </body>
 </html>
