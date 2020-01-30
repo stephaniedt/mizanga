@@ -40,10 +40,10 @@
             </td>
             <td class="text-center">
               <a href="#">
-                <i class="mr-2 material-icons">edit</i>
+                <i class="mr-2 material-icons text-info">edit</i>
               </a>
               <a href="#">
-                <i class="ml-2 material-icons">delete</i>
+                <i class="ml-2 material-icons text-info">delete</i>
               </a>
             </td>
         </tbody>
@@ -114,13 +114,13 @@
 
         </div>
         <div class="row align-items-end">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <label for="exampleFormControlTextarea1">Texto de instrução aos autores</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <div class="col-md-4">
-            <button class="btn w-100 btn-secondary" type="submit">criar</button>
-          </div>
+        </div>
+        <div class="my-4">
+          <button class="btn btn-info" type="submit" style="width:120px">Criar</button>
         </div>
 
       </form>

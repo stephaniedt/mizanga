@@ -10,7 +10,7 @@
 
     <div class="container">
         <div class="mb-1 pt-1">
-            <h4 class="display-2">Ficha de Inscrição</h4>
+            <h4 class="display-3">Ficha de Inscrição</h4>
             <p class="lead font-italic"></p>
         </div>
         <form action="" method="post">
@@ -26,7 +26,7 @@
                         <label for="compMatricula" class="align-self-center mr-2">Comprovante de matrícula</label>
                         <div class="custom-file mb-4">
                             <input type="file" class="custom-file-input" id="customFile">
-                            <label class="custom-file-label" for="customFile"></label>
+                            <label class="custom-file-label" for="customFile" data-browse="Buscar"></label>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="form-group col-md-6">
                         <label for="titulacao">Titulação mais alta*</label>
                         <select class="form-control" id="titulacao">
-                            <option selected>Escolha...</option>
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Ensino Médio</option>
                             <option value="2">Graduação</option>
                             <option value="3">Mestrado</option>
@@ -162,7 +162,7 @@
                     <div class="form-group col-md-4">
                         <label for="uf">UF*</label>
                         <select class="form-control" id="uf">
-                            <option selected>Escolha...</option>
+                            <option selected disabled>Escolha...</option>
                             <option value="1">AC</option>
                             <option value="2">AL</option>
                             <option value="3">AP</option>
@@ -297,7 +297,7 @@
                     <div class="form-group col-md-2">
                         <label for="raca">Raça/Cor*</label>
                         <select class="form-control" id="raca">
-                            <option selected>Escolha...</option>
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Amarela</option>
                             <option value="2">Branca</option>
                             <option value="3">Indígena</option>
@@ -309,7 +309,7 @@
                     <div class="form-group col-md-8">
                         <label for="nomeCertific">Prefere que o nome social seja utilizado na emissão do certificado?*</label>
                         <select class="form-control" id="nomeCertific">
-                            <option selected>Escolha...</option>
+                            <option selected disabled>Escolha...</option>
                             <option value="1">Sim</option>
                             <option value="2">Não</option>
                         </select>
@@ -319,8 +319,8 @@
         </form>
 
         <div class="my-4">
-            <button type="submit" class="btn btn-primary" style="width: 10%">Enviar</button>
-            <button type="button" class="btn btn-primary" style="width: 10%">Voltar</button>
+            <button type="submit" class="btn btn-primary" style="width:120px">Enviar</button>
+            <button type="button" class="btn btn-primary" style="width:120px">Voltar</button>
         </div>
     </div>
 

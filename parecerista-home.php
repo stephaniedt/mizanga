@@ -10,8 +10,11 @@
 
 
     <div class="container">
+        <div class="mb-1 pt-1">
+            <h4 class="display-3">Área do parecerista</h4>
+            <p class="lead font-italic"> </p>
+        </div>
         <div>
-            <h1 class="display-2 mb-1">Área do parecerista</h1>
             <a href="./link-instrucoes-avaliadores.php" target="_blank" class="d-block">Instruções aos avaliadores</a>
             <!-- add JS para abrir nova pagina pop-up -->
             <a href="#" class="d-block">Exportar resultados para Excel</a>
