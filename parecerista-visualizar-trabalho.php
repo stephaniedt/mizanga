@@ -7,7 +7,7 @@
     <?php require('./includes/navbar.php'); ?>
   </div>
   <!-- Titulo -->
-  <div class="container">
+  <div class="ml-5">
     <div class="mb-1 pt-1">
       <h4 class="display-3">Avaliar Trabalho</h4>
       <p class="lead font-italic"></p>
