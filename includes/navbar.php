@@ -33,8 +33,15 @@
           <a class="dropdown-item" href="./inscrito-enviar-trabalho.php">Enviar trabalho</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="parecerista-home.php">Pareceristas</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Área do parecerista
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./parecerista-home.php">Página inicial</a>
+          <a class="dropdown-item" href="./parecerista-avaliar-trabalho.php">Avaliar trabalhos</a>
+          <a class="dropdown-item" href="./#">xyz</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contato.php">Contato</a>
