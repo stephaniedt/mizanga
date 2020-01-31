@@ -47,5 +47,28 @@
         <a class="nav-link" href="contato.php">Contato</a>
       </li>
     </ul>
+
+    <div class="btn-group">
+        <button type="" class="btn px-4">
+          <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png" width="40px" height="40px">
+        </button>
+        <button type="button" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+
+        </button>
+        <div class="dropdown-menu  dropdown-menu-right" class="card" aria-labelledby="dropdownMenuOffset">
+          <div >
+            <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png"  width="70px" height="70px"  class="card-img-center" alt="..." >
+            <div class="card-body ">
+              <h5 class="card-title">Seus Dados</h5>
+              <p class="card-text">Nome Sobrenome</p>
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./inscrito-home.php">Editar dados</a>
+          </div>
+        </div>
+
+
+
+
   </div>
 </nav>
