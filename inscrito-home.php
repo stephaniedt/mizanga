@@ -9,7 +9,7 @@
 
     <div class="container">
         <div class="mb-1 pt-1">
-            <h4 class="display-2">Área do inscrito</h4>
+            <h4 class="display-3">Área do inscrito</h4>
             <p class="lead font-italic"></p>
         </div>
 

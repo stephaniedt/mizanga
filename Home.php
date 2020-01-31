@@ -40,7 +40,7 @@
         #banner{
             background-color: #721121;
             width: 100%;
-            height: 50vh;
+            height: 50%;
         }
         #texto{
             color: white; 
@@ -74,7 +74,7 @@
    
    .contador{
     width: 100%;
-    height: 50vh;
+    height: 50%;
     border: 1px solid grey;
     margin: 30px;
    }
