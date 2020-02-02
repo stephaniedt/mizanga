@@ -4,7 +4,7 @@
     <!-- início config -->
     <!-- Cabeçalho1 -->
     <div class="mb-1 pt-1">
-      <h1 class="display-3">Participação</h1>
+      <h1 class="display-3">Inscritos</h1>
       <p class="lead font-italic"> </p>
     </div>
     <!-- fim Cabeçalho1 -->

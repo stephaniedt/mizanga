@@ -3,10 +3,7 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="sticky-top">
-        <?php require('./includes/navbar.php'); ?>
-    </div>
-
+    
     <div class="container">
         <div class="mb-1 pt-1">
             <h4 class="display-3">Área do inscrito</h4>
@@ -76,13 +73,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus montes, posuere dis elit arcu. Enim viverra ornare integer rhoncus facilisis ipsum. Ornare malesuada et neque, eu a, mauris vulputate dolor, sagittis. Aliquam, elit id vitae placerat eget erat elit tortor eu. Libero, massa vitae, senectus ullamcorper. Cursus sit in viverra convallis volutpat. Nunc velit vitae sociis amet rhoncus, egestas ut a sed.</p>
         </div>
         <hr>
-        <br><br><br>
+        
 
-    </div>
-
-    <div>
-        <?php require('./includes/footer.php'); ?>
-        <?php require('./includes/script.php'); ?>
     </div>
 </body>
 
