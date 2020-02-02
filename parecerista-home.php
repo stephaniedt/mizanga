@@ -4,11 +4,6 @@
 
 <body>
 
-    <div class="sticky-top">
-        <?php require('./includes/navbar.php'); ?>
-    </div>
-
-
     <div class="container">
         <div class="mb-1 pt-1">
             <h4 class="display-3">Área do parecerista</h4>
@@ -68,14 +63,6 @@
         <hr class="my-3">
     </div>
 
-
-
-
-
-    <div>
-        <?php require('./includes/footer.php'); ?>
-        <?php require('./includes/script.php'); ?>
-    </div>
 </body>
 
 </html>
