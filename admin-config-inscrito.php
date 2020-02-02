@@ -1,94 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<?php require('./includes/head.php'); ?>
+
 <body>
-  
+<!-- início divona container -->
   <div class="container">
-    <!-- início config -->
-    <!-- Cabeçalho1 -->
-    <div class="mb-1 pt-1">
-      <h1 class="display-3">Inscritos</h1>
-      <p class="lead font-italic"> </p>
-    </div>
-    <!-- fim Cabeçalho1 -->
 
-    <!-- início modalidades criadas -->
-    <div class="table-responsive">
-      <table class="table table-bordered">
-        <thead class="thead-light text-center">
-          <tr>
-            <th scope="col" style="width:50%">Identificação</th>
-            <th scope="col">Início</th>
-            <th scope="col">Fim</th>
-            <th scope="col">Valor</th>
-            <th scope="col">Anexo</th>
-            <th scope="col">Editar/Excluir</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Estudante</th>
-            <td>dd/mm/aaaa</td>
-            <td>dd/mm/aaaa</td>
-            <td>R$00,00</td>
-            <td>Sim</td>
-            <td class="text-center">
-              <a href="#">
-                <i class="mr-2 material-icons">edit</i>
-              </a>
-              <a href="#">
-                <i class="ml-2 material-icons">delete</i>
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- fim modalidades criadas -->
+  <!-- início Cabeçalho1 -->
+      <div class="mb-1 pt-1">
+        <h1 class="display-3">Inscritos</h1>
+        <p class="lead font-italic"> Gerenciar modalidades de inscrição</p>
+      </div>
+  <!-- fim Cabeçalho1 -->
 
-    <!-- Cabeçalho 2 -->
-    <div class=" pl-3 mt-3 mb-1 pt-1 text-white bg-primary">
-      <h4>Configurar participantes</h4>
-      <p class="lead font-italic">Insira as principais informações dos participantes, modalidades, valores e prazos de inscrição.</p>
-    </div>
-    <!-- fim cabeçalho 2 -->
-    <!-- Início Inserir modalidade -->
-    <div class="py-3">
-      <form class="needs-validation" novalidate>
-        <div class="form-row">
-          <div class="col-md-6">
-            <label class="font-weight-bold" for="validationTooltip01">Identificação</label>
-            <input type="text" class="form-control" id="validationTooltip01" placeholder="Escolha um nome" required>
-          </div>
+  <!-- início div row -->
+    <div class= "row">
 
-          <div class="col-md-2">
-            <label class="font-weight-bold" for="validationTooltip04">Início das inscrições</label>
-            <input type="date" class="form-control" id="validationTooltip04" placeholder="dd/mm/aaaa" required>
-          </div>
+      <!-- Início lista de modalidades -->
+      <div class=" list-group-flush col-md-2 border rounded">
+      <h6 class="my-1">Modalidades</h6>
+          <li class="list-group-item"> <a href="#">Estudante</a></li>
+          <li class="list-group-item"> <a href="#">Profissional</a></li>
+          <li class="list-group-item"> <a href="#"> + Nova</a></li>
+      </div>
+      <!-- fim lista de modalidades -->
 
-          <div class="col-md-2">
-            <label class="font-weight-bold" for="validationTooltip05">Fim das inscrições</label>
-            <input type="date" class="form-control" id="validationTooltip05" placeholder="dd/mm/aaaa" required>
-          </div>
+      <!-- início div config -->    
+      <div class="col-md-10 my-1">
+        <!-- início do form de modalidades -->
+        <form>
 
-          <div class="col-md-2">
-            <label class="font-weight-bold" for="validationTooltip05"> Anexar comprovante?</label>
-            <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-              <label class="custom-control-label" for="customRadioInline1">Sim</label>
+          <!-- início da div row -->
+          <div class="form-row">
+            <!-- identificação -->
+              <div class="col-md-12 mb-4">
+                <label class="font-weight-bold" for="validationTooltip01">Identificação</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="Escolha um nome" required>
+              </div>
+
+            <!-- Prazo de início -->
+              <div class="col-md-4">
+                <label class="font-weight-bold" for="validationTooltip04">Início das inscrições</label>
+                <input type="date" class="form-control" id="validationTooltip04" placeholder="dd/mm/aaaa" required>
+              </div>
+
+            <!-- Prazo de término -->
+              <div class="col-md-4">
+                <label class="font-weight-bold" for="validationTooltip05">Fim das inscrições</label>
+                <input type="date" class="form-control" id="validationTooltip05" placeholder="dd/mm/aaaa" required>
+              </div>
+
+            <!-- Anexar comprovante? -->
+              <div class="col-md-12 mt-3 ">
+                  <div class = "custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Anexar comprovante</label>
+                  </div>
+              </div>
+
+            <!-- botão -->
+            <div class=" mt-4 col-md-12">
+              <button class="btn btn-outline-primary" type="submit" style="width:120px">OK</button>
             </div>
-            <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-              <label class="custom-control-label" for="customRadioInline2">Não</label>
-            </div>
-          </div>
-        </div>
 
-        <div class="my-4">
-          <button class="btn btn-primary" type="submit" style="width:120px">Criar</button>
-        </div>
-      </form>
+          </div>
+          <!-- fim da div row -->
+        </form>
+        <!-- fim do form de modalidades -->
+
+      </div>
+      <!-- fim div config --> 
+
     </div>
-    <!-- fim Inserir modalidade -->
-    <!-- fim config -->
+  <!-- fim div row -->
+
   </div>
-</body>
+<!-- div container -->
 
+</body>
 </html>

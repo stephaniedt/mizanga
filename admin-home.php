@@ -16,7 +16,7 @@
       <section class="card-group col-md-9 row mt-2 flex-wrap">
       
         <!-- início card Inscritos -->
-        <div class="card col-md-4 rounded-right">
+        <div class="card col-md-4 pt-2">
           <h5 class="card-title">Inscritos</h5>
           <!-- aqui tem php hein -->
           <p class="card-text">Inscritos: 123456 </p>
@@ -24,7 +24,7 @@
         <!-- fim card Inscritos -->
 
         <!-- início card trabalhos -->
-        <div class="card col-md-4 ">
+        <div class="card col-md-4 pt-2 ">
           <h5 class="card-title">Trabalhos</h5>
           <!-- aqui tem php hein -->
           <p class="card-text">Trabalhos inscritos: 1234 </p>
@@ -34,7 +34,7 @@
         <!-- fim card trabalhos -->
 
         <!-- início card pareceristas -->
-        <div class="card col-md-4 ">
+        <div class="card col-md-4 pt-2 rounded-right">
             <h5 class="card-title">Pareceristas</h5>
             <!-- aqui tem php hein -->
             <p class="card-text">Pareceristas convidados: 1234 </p>
@@ -43,7 +43,7 @@
         <!-- fim card pareceristas -->
 
         <!-- início card maior (prazos) -->
-        <div class="col-md-12 border rounded mt-2">
+        <div class="col-md-12 pt-2 border rounded mt-2">
             <h5 class="card-title">Prazos</h5>
             <!-- aqui tem php hein -->
             <p class="card-text">Abertura de inscrições: 25/01/2020 </p>
