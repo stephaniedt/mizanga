@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php require('./includes/head.php'); ?>
-
 <body>
 
 
-  <div class="sticky-top">
-    <?php require('./includes/navbar.php'); ?>
-  </div>
-
-  <div class="container">
+    <div class="container">
     <!-- início config -->
     <!-- início Cabeçalho -->
     <div class="mb-1 pt-1">
@@ -130,10 +122,7 @@
 
     <!-- fim config -->
   </div>
-  <div>
-    <?php require('./includes/footer.php'); ?>
-    <?php require('./includes/script.php'); ?>
-  </div>
+  
 
 </body>
 

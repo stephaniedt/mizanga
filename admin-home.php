@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php require('./includes/head.php'); ?>
+
 
 <body>
-
-  <div class="sticky-top">
-    <?php require('./includes/navbar.php'); ?>
-  </div>
-
-
   <!-- início div container -->
   <div class="container">
 
@@ -16,7 +8,7 @@
     <div>
       <h1 class="display-3 text-center">1º Encontro das mizangueiras</h1>
       <p class="lead text-center">de 28/10/2019 a 28/04/2020</p>
-      <p class="text-center">Veja como está o andamento das inscrições!</p>
+      <p class="text-center">Veja como está fffo t x!</p>
       <hr class="my-3">
     </div>
 
@@ -63,13 +55,6 @@
 
   </div>
   <!-- fim div container -->
-
-
-
-  <div>
-    <?php require('./includes/footer.php'); ?>
-    <?php require('./includes/script.php'); ?>
-  </div>
 
 </body>
 

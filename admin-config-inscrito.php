@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php require('./includes/head.php'); ?>
-
 <body>
-  <div class="sticky-top">
-    <?php require('./includes/navbar.php'); ?>
-  </div>
+  
   <div class="container">
     <!-- início config -->
     <!-- Cabeçalho1 -->
@@ -95,11 +89,6 @@
     <!-- fim Inserir modalidade -->
     <!-- fim config -->
   </div>
-  <div>
-    <?php require('./includes/footer.php'); ?>
-    <?php require('./includes/script.php'); ?>
-  </div>
-
 </body>
 
 </html>
