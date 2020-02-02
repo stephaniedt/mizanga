@@ -27,17 +27,10 @@
         <a class="nav-link" href="./inscrito-tabs.php"> Área do inscrito </a>
       </li>
     <!-- FIM navbar INSCRITO -->
-
+    
     <!-- início navbar PARECERISTA -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Área do parecerista
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./parecerista-home.php">Página inicial</a>
-          <a class="dropdown-item" href="./parecerista-avaliar-trabalho.php">Avaliar trabalhos</a>
-          <a class="dropdown-item" href="./#">xyz</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="./parecerista-tabs.php"> Área do parecerista </a>
       </li>
     <!-- FIM navbar PARECERISTA -->
 
