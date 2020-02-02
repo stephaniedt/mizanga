@@ -11,7 +11,7 @@
 
   <div class="container">
     <main>
-      <h4 class="display-2"> Instruções para inscrição</h4>
+      <h4 class="display-3"> Instruções para inscrição</h4>
       <div class="mt-4">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nam cumque eveniet, voluptates provident iure, aperiam doloribus itaque aliquam illo dignissimos? Voluptatem minima unde in enim laudantium, nisi accusamus!
@@ -50,6 +50,12 @@
               <td>R$ 00,00</td>
               <td>R$ 00,00</td>
             </tr>
+            <tr>
+              <th scope="row">Professor Associado</th>
+              <td>R$ 00,00</td>
+              <td>R$ 00,00</td>
+              <td>R$ 00,00</td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -79,11 +85,11 @@
         <a class="font-weight-bold" href="#"> Clique aqui para fazer o download da ficha de reembolso.</a>
       </div>
       <div class="mt-4 d-flex justify-content-center">
-        <button type="button" class="p-1 px-5 mb-3 btn btn-secondary"> <a href="./inscricao-usuario.php"> Clique aqui para realizar sua inscrição</a>
-        </button>
+        <a href="./inscricao-usuario.php" class="p-1 px-5 mb-3 btn btn-outline-primary" role="button"> Clique aqui para realizar sua inscrição</a>
       </div>
     </main>
   </div>
+
   <div>
     <?php require('./includes/footer.php'); ?>
     <?php require('./includes/script.php'); ?>
