@@ -16,21 +16,21 @@
   <!-- início div row -->
     <div class= "row">
 
-      <!-- Início lista de modalidades -->
-      <div class=" list-group-flush col-md-2 border rounded">
-      <h6 class="my-1">Modalidades</h6>
+    <!-- Início lista de modalidades -->
+      <div class=" list-group-flush col-md-3 border rounded">
+      <h6 class="my-1 font-weight-bold">Modalidades</h6>
           <li class="list-group-item"> <a href="#">Estudante</a></li>
           <li class="list-group-item"> <a href="#">Profissional</a></li>
           <li class="list-group-item"> <a href="#"> + Nova</a></li>
       </div>
-      <!-- fim lista de modalidades -->
+    <!-- fim lista de modalidades -->
 
-      <!-- início div config -->    
-      <div class="col-md-10 my-1">
+    <!-- início div config -->    
+      <div class="col-md-9 my-1">
         <!-- início do form de modalidades -->
         <form>
 
-          <!-- início da div row -->
+          <!-- início da div form-row -->
           <div class="form-row">
             <!-- identificação -->
               <div class="col-md-12 mb-4">
@@ -64,12 +64,12 @@
             </div>
 
           </div>
-          <!-- fim da div row -->
+          <!-- fim da div form-row -->
         </form>
         <!-- fim do form de modalidades -->
 
       </div>
-      <!-- fim div config --> 
+    <!-- fim div config --> 
 
     </div>
   <!-- fim div row -->

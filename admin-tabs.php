@@ -32,7 +32,7 @@
         <?php require('admin-config-inscrito.php'); ?>
       </div>
       <div class="tab-pane fade" id="nav-trabalho" role="tabpanel" aria-labelledby="nav-trabalho-tab">
-        <?php require('admin-config-trabalhos.php'); ?>
+        <?php require('admin-config-trabalho.php'); ?>
       </div>
       <div class="tab-pane fade" id="nav-parecerista" role="tabpanel" aria-labelledby="nav-parecerista-tab">
         <?php require('admin-gerenciar-parecerista.php'); ?>
