@@ -17,16 +17,8 @@
     <!-- fim navbar antes do login -->
 
     <!-- INÍCIO navbar de ADMIN -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Admin
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="./admin-home.php">Tela inicial</a>
-          <a class="dropdown-item" href="./admin-config-inscrito.php">Participantes</a>
-          <a class="dropdown-item" href="./admin-config-trabalhos.php">Trabalhos</a>
-          <a class="dropdown-item" href="./admin-config-parecerista.php">Pareceristas</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="./admin-tabs.php"> Área do admin </a>
       </li>
     <!-- fim navbar de ADMIN -->
 
@@ -62,7 +54,7 @@
       </li>
     </ul>
   
-    <!-- início dropdown do perfil do usuário -->
+    <!-- início dropdown do perfil do usuário *** STE, NÃO ESTÁ RESPONSIVO, NÃO É UM PROBLEMA MAS SÓ AVISANDO-->
     <div class="btn-group">
     <!-- parte de fora -->
         <div type="" class="px-4">
