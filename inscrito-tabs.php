@@ -29,13 +29,13 @@
         <?php require('inscrito-home.php'); ?>
       </div>
       <div class="tab-pane fade" id="nav-infopessoal" role="tabpanel" aria-labelledby="nav-infopessoal-tab">
-        <?php require('admin-config-inscrito.php'); ?>
+        <?php require('inscrito-infospessoais.php'); ?>
       </div>
       <div class="tab-pane fade" id="nav-trabalho" role="tabpanel" aria-labelledby="nav-trabalho-tab">
-        <?php require('admin-config-trabalhos.php'); ?>
+        <?php require('inscrito-trabalhos-cadastrados.php'); ?>
       </div>
       <div class="tab-pane fade" id="nav-novotrabalho" role="tabpanel" aria-labelledby="nav-novotrabalho-tab">
-        <?php require('admin-gerenciar-parecerista.php'); ?>
+        <?php require('inscrito-enviar-trabalho.php'); ?>
       </div>
     </div>
     <!-- fim do conteúdo das tabs -->
