@@ -25,18 +25,23 @@
 
     <!-- início do conteúdo das tabs ATENÇÃO: os IDs do menu e do conteúdo tem que ser iguais -->
     <div class="tab-content" id="nav-tabContent">
+
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
         <?php require('admin-home.php'); ?>
       </div>
+
       <div class="tab-pane fade" id="nav-inscrito" role="tabpanel" aria-labelledby="nav-inscrito-tab">
         <?php require('admin-config-inscrito.php'); ?>
       </div>
+
       <div class="tab-pane fade" id="nav-trabalho" role="tabpanel" aria-labelledby="nav-trabalho-tab">
-        <?php require('admin-config-trabalho.php'); ?>
+        <?php require_once('admin-config-trabalho.php'); ?>
       </div>
+
       <div class="tab-pane fade" id="nav-parecerista" role="tabpanel" aria-labelledby="nav-parecerista-tab">
-        <?php require('admin-gerenciar-parecerista.php'); ?>
+        <?php require_once('admin-config-parecerista.php'); ?>
       </div>
+
     </div>
     <!-- fim do conteúdo das tabs -->
 

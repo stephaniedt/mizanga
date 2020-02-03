@@ -54,6 +54,7 @@
               <label>Coautores</label>
               <input type="number" class="form-control" id="validationTooltip06">
             </div>
+
           </div>
         <!-- fim da div form-row -->
           
@@ -62,7 +63,6 @@
         <!-- div Parâmetros do trabalho -->
           <div class="form-row">
           
-
             <div class=" form-group form-row col-md-6">
 
               <h6 class="col-md-12">Configurar título</h6>
@@ -91,17 +91,19 @@
                 <input class="form-control" type="number" id="exampleFormControlTextarea2" placeholder="inserir número">
               </div>
           
+            </div>
+          
           </div>
         <!-- Fim da div dos Parâmetros do trabalho -->
         
-          <div class="col-md-12">
-            <label for="exampleFormControlTextarea1">Texto de instrução aos autores</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <div class="col-md-12">
+              <label for="exampleFormControlTextarea1">Texto de instrução aos autores</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
 
-          <div class="col-md-12">
-            <button class="mt-3 btn btn-outline-info" type="submit" style="width:120px">OK</button>
-          </div>
+            <div class="col-md-12">
+              <button class="mt-3 btn btn-outline-info" type="submit" style="width:120px">OK</button>
+            </div>
 
         </form>
       <!-- fim do form de modalidades -->
