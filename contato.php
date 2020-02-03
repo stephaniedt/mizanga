@@ -14,30 +14,32 @@
             <h4 class="display-3">Contato</h4>
             <p class="lead font-italic"></p>
         </div>
-        <form class="w-50 ml-5">
-            <div>
-                <label for="inlineFormInputName">Nome</label>
-                <input class="form-control" type="text" placeholder="">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">E-mail</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted"></small>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Assunto</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Inscrição</option>
-                    <option>Dúvidas sobre trabalhos</option>
-                    <option>Outros</option>
-                </select>
+        <div class="col-6 offset-3">
+            <form>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1"></label>
+                    <label for="inlineFormInputName">Nome</label>
+                    <input class="form-control" type="text" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Assunto</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Inscrição</option>
+                        <option>Dúvidas sobre trabalhos</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensagem</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
+            </form>
+        </div>
 
     </div>
 
