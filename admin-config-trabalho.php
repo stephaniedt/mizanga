@@ -95,7 +95,7 @@
           
           </div>
         <!-- Fim da div dos Parâmetros do trabalho -->
-        
+          <div class="form-row">
             <div class="col-md-12">
               <label for="exampleFormControlTextarea1">Texto de instrução aos autores</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -104,6 +104,7 @@
             <div class="col-md-12">
               <button class="mt-3 btn btn-outline-info" type="submit" style="width:120px">OK</button>
             </div>
+          </div>
 
         </form>
       <!-- fim do form de modalidades -->

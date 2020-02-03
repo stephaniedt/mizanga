@@ -5,14 +5,14 @@
 <body>
   
   <!-- Titulo -->
-  <div class="ml-5">
+  <div>
     <div class="mb-1 pt-1">
       <h4 class="display-3">Avaliar Trabalho</h4>
       <p class="lead font-italic"></p>
     </div>
 
     <!-- Inicio-->
-    <div class="container">
+    <div>
       <div>
         <p><strong>Lorem ipsum dolor sit amet consectet</strong></p>
       </div>
@@ -36,7 +36,7 @@
         </textarea>
       </div>
     </form>
-    <div class="container">
+    <div>
       <div>
         <p><strong>Palavras-chave: Lorem ipsum dolor sit amet consectet</strong> </p>
       </div>
@@ -50,7 +50,7 @@
         <p><strong>3° Opção de Grupo de Trabalho:</strong> Lorem ipsum dolor sit amet consectet</p>
       </div>
     </div>
-    <form class="container">
+    <form>
       <p>Avaliar Trabalho</p>
       <select class="form-control mb-4">
         <option selected disabled>Escolha...</option>
@@ -62,7 +62,7 @@
     </form>
     <div></div>
     <!--Add arquivo -->
-    <form class="container">
+    <form>
       <p>Incluir Parecer</p>
       <div class="custom-file mb-4">
         <input type="file" class="custom-file-input" id="customFile">

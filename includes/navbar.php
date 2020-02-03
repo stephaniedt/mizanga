@@ -38,10 +38,18 @@
       <li class="nav-item">
         <a class="nav-link" href="contato.php">Contato</a>
       </li>
+
+      
     </ul>
+
+<!-- BUTTON Não está funcionando :(  -->
+    <button type="button" class="btn btn-primary nav-link rounded-right" href="./login.php">LOGIN</button> 
+    
   
     <!-- início dropdown do perfil do usuário *** STE, NÃO ESTÁ RESPONSIVO, NÃO É UM PROBLEMA MAS SÓ AVISANDO-->
+
     <div class="btn-group">
+
     <!-- parte de fora -->
         <div type="" class="px-4">
           <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png" width="40px" height="40px">

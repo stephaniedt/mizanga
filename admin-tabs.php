@@ -35,11 +35,11 @@
       </div>
 
       <div class="tab-pane fade" id="nav-trabalho" role="tabpanel" aria-labelledby="nav-trabalho-tab">
-        <?php require_once('admin-config-trabalho.php'); ?>
+        <?php require('admin-config-trabalho.php'); ?>
       </div>
 
       <div class="tab-pane fade" id="nav-parecerista" role="tabpanel" aria-labelledby="nav-parecerista-tab">
-        <?php require_once('admin-config-parecerista.php'); ?>
+        <?php require('admin-config-parecerista.php'); ?>
       </div>
 
     </div>
