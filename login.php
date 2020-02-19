@@ -29,7 +29,7 @@
 <body>
 	<main>
 		<div class="flex-container">
-			<div class="col-sm-4 py-5 px-4 shadow-lg bg-lightrounded">
+			<div class="col-lg-4 col-sm-6 py-5 px-4 shadow-lg bg-lightrounded">
 				<img class="mx-auto d-block mb-5" src="img/logoMZ.png" alt="icone usuario" style="height: 80px;">
 				<form method="post">
 					<div class="form-group">
