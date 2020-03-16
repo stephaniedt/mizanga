@@ -63,7 +63,7 @@
       </div>
 
       <div class="btn-group">
-        <button type="button" class="btn px-4">
+        <button type="" class="btn px-4">
           <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png" width="40px" height="40px">
         </button>
         <button type="button" class="btn dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">

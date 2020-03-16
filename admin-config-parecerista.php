@@ -3,14 +3,10 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="sticky-top">
-        <?php require('./includes/navbar.php'); ?>
-    </div>
-
-
+    
     <div class="container">
         <div class="mb-1 pt-1">
-            <h4 class="display-2">Incluir Parecerista</h4>
+            <h1 class="display-3">Incluir Parecerista</h1>
             <p class="lead font-italic"></p>
         </div>
 
@@ -39,11 +35,11 @@
                         Eixo 01 - Lorem ipsum dolor sit amet consectetur
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoUmSim" value="sim">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="eixoUmSim" value="sim">
                         <label class="form-check-label" for="eixoUmSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoUmNao" value="nao">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="eixoUmNao" value="nao">
                         <label class="form-check-label" for="eixoUmNao">Não</label>
                     </div>
                 </div>
@@ -52,11 +48,11 @@
                         Eixo 02 - Lorem ipsum dolor sit amet consectetur
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoDoisSim" value="sim">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="eixoDoisSim" value="sim">
                         <label class="form-check-label" for="eixoDoisSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoDoisNao" value="nao">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="eixoDoisNao" value="nao">
                         <label class="form-check-label" for="eixoDoisNao">Não</label>
                     </div>
                 </div>
@@ -65,11 +61,11 @@
                         Eixo 03 - Lorem ipsum dolor sit amet consectetur
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoTresSim" value="sim">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="eixoTresSim" value="sim">
                         <label class="form-check-label" for="eixoTresSim">Sim</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="eixoTresNao" value="nao">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="eixoTresNao" value="nao">
                         <label class="form-check-label" for="eixoTresNao">Não</label>
                     </div>
                 </div>
@@ -106,15 +102,12 @@
         </form>
 
         <div class="my-4">
-            <button type="submit" class="btn btn-primary" style="width: 10%">Enviar</button>
-            <button type="button" class="btn btn-primary" style="width: 10%">Voltar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary">Voltar</button>
         </div>
     </div>
 
-    <div>
-        <?php require('./includes/footer.php'); ?>
-        <?php require('./includes/script.php'); ?>
-    </div>
+
 
 </body>
 

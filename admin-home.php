@@ -1,76 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <?php require('./includes/head.php'); ?>
 
 <body>
-
-  <div class="sticky-top">
-    <?php require('./includes/navbar.php'); ?>
-  </div>
-
-
   <!-- início div container -->
   <div class="container">
 
-    <!-- Início Configurações -->
-    <div>
-      <h1 class="display-3 text-center">1º Encontro das mizangueiras</h1>
-      <p class="lead text-center">de 28/10/2019 a 28/04/2020</p>
-      <p class="text-center">Veja como está o andamento das inscrições!</p>
-      <hr class="my-3">
+    <!-- Cabeçalho -->
+    <div class="row">
+      <aside class="col-md-4 col-sm-12 m-2 px-0">
+        <img class= "mx-auto d-block" style="width:80%" src="./img/mizangueras.gif" alt="">
+        <h1 class= "text-center">1º Encontro das mizangueiras</h1>
+        <p class="lead text-center">de 28/10/2019 a 28/04/2020 <br> Veja como estão as coisas!</p> 
+      </aside>
+
+      <!-- início card deck -->
+      <section class="card-group col-md-8 row mt-2 flex-wrap">
+      
+        <!-- início card Inscritos -->
+        <div class="card col-md-4 pt-2">
+          <h5 class="card-title font-weight-bold text-primary">Inscritos</h5>
+          <!-- aqui tem php hein -->
+          <p class="card-text">Inscritos: 123456 </p>
+        </div>
+        <!-- fim card Inscritos -->
+
+        <!-- início card trabalhos -->
+        <div class="card col-md-4 pt-2 ">
+          <h5 class="card-title font-weight-bold  text-primary">Trabalhos</h5>
+          <!-- aqui tem php hein -->
+          <p class="card-text">Trabalhos inscritos: 1234 </p>
+          <p class="card-text">Trabalhos avaliados: 0123 </p>
+          <p class="card-text">Trabalhos aguardando avaliação: 0123 </p>
+        </div>
+        <!-- fim card trabalhos -->
+
+        <!-- início card pareceristas -->
+        <div class="card col-md-4 pt-2 rounded-right">
+            <h5 class="card-title font-weight-bold text-primary">Pareceristas</h5>
+            <!-- aqui tem php hein -->
+            <p class="card-text">Pareceristas convidados: 1234 </p>
+            <p class="card-text">Pareceristas cadastrados: 0123 </p>
+        </div>
+        <!-- fim card pareceristas -->
+
+        <!-- início card maior (prazos) -->
+        <div class="col-md-12 pt-2 border rounded mt-2">
+            <h5 class="card-title font-weight-bold text-primary">Prazos</h5>
+            <!-- aqui tem php hein -->
+            <p class="card-text">Abertura de inscrições: 25/01/2020 </p>
+            <p class="card-text">Abertura para trabalhos: 25/01/2020 </p>
+            <p class="card-text">Dilatação de prazo (não divulgar esta informação): 25/01/2020 </p>
+        </div>
+        <!-- fim card maior (prazos) -->
+
+      </section>
+      <!-- fim card deck -->
+    
     </div>
-
-    <!-- início card deck -->
-    <div class="card-deck">
-      <div class="card">
-        <img src="./img/mizanga3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Pareceristas</h5>
-          <p class="card-text">Acompanhe o andamento dos pareceres e do cadastro de pareceristas.</p>
-          <a class="card-title" href="pareceristas.php"> <button type="button" class="btn btn-outline-primary">Configurar pareceristas</button> </a>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Atualizado há 1 minuto</small>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./img/mizanga2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Trabalhos</h5>
-          <p class="card-text">Veja os trabalhos inscritos em cada modalidade.</p>
-          <a class="card-title" href="trabalhos.php"> <button type="button" class="btn btn-outline-primary">Configurar trabalhos</button> </a>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Atualizado há 7 dias</small>
-        </div>
-      </div>
-      <div class="card">
-        <img src="./img/mizanga1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Participantes</h5>
-          <p class="card-text">Quer saber quantas pessoas já se inscreveram? Clique aqui.</p>
-          <a class="card-title" href="participantes.php"> <button type="button" class="btn btn-outline-primary">Configurar participantes</button> </a>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Atualizado há 3 minutos</small>
-        </div>
-      </div>
-    </div>
-    <!-- fim card deck -->
-    <!-- Fim Configurações -->
-
-
+    <!-- fim div row -->
 
   </div>
   <!-- fim div container -->
 
-
-
-  <div>
-    <?php require('./includes/footer.php'); ?>
-    <?php require('./includes/script.php'); ?>
-  </div>
-
 </body>
-
 </html>

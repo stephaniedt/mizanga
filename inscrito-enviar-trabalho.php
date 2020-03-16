@@ -3,11 +3,7 @@
 <?php require('./includes/head.php'); ?>
 
 <body>
-    <div class="container-fluid">
-        <div>
-            <?php require('./includes/navbar.php'); ?>
-        </div>
-    </div>
+    
     <!-- início envio de trabalho -->
     <div class="container">
 
@@ -90,10 +86,6 @@
 
     </div>
 
-    <div>
-        <?php require('./includes/footer.php'); ?>
-        <?php require('./includes/script.php'); ?>
-    </div>
 </body>
 
 </html>
